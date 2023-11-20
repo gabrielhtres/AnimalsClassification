@@ -1,0 +1,4 @@
+/train
+/test
+*.zip
+modelo.h5
