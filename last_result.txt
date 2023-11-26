@@ -1,0 +1,16 @@
+precision    recall  f1-score   support
+
+      Aranha       0.19      0.20      0.19      1446
+   Borboleta       0.09      0.09      0.09       634
+    Cachorro       0.19      0.19      0.19      1459
+      Cavalo       0.11      0.11      0.11       787
+    Elefante       0.04      0.03      0.04       434
+     Esquilo       0.07      0.07      0.07       559
+     Galinha       0.13      0.13      0.13       929
+        Gato       0.06      0.06      0.06       500
+      Ovelha       0.06      0.06      0.06       546
+        Vaca       0.05      0.05      0.05       560
+
+    accuracy                           0.12      7854
+   macro avg       0.10      0.10      0.10      7854
+weighted avg       0.12      0.12      0.12      7854
