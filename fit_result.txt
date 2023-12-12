@@ -1,0 +1,39 @@
+Epoch 1/10
+573/573 [==============================] - 1495s 3s/step - loss: 2.3474 - accuracy: 0.6649 - val_loss: 0.5220 - val_accuracy: 0.8435
+Epoch 2/10
+573/573 [==============================] - 1490s 3s/step - loss: 0.6492 - accuracy: 0.8153 - val_loss: 0.4242 - val_accuracy: 0.8816
+Epoch 3/10
+573/573 [==============================] - 1485s 3s/step - loss: 0.4487 - accuracy: 0.8650 - val_loss: 0.3928 - val_accuracy: 0.8992
+Epoch 4/10
+573/573 [==============================] - 1471s 3s/step - loss: 0.3579 - accuracy: 0.8924 - val_loss: 0.4210 - val_accuracy: 0.8995
+Epoch 5/10
+573/573 [==============================] - 1517s 3s/step - loss: 0.3292 - accuracy: 0.9020 - val_loss: 0.4048 - val_accuracy: 0.9066
+Epoch 6/10
+573/573 [==============================] - 1476s 3s/step - loss: 0.2828 - accuracy: 0.9162 - val_loss: 0.3719 - val_accuracy: 0.9152
+Epoch 7/10
+573/573 [==============================] - 1472s 3s/step - loss: 0.2490 - accuracy: 0.9245 - val_loss: 0.4072 - val_accuracy: 0.9170
+Epoch 8/10
+573/573 [==============================] - 1472s 3s/step - loss: 0.2377 - accuracy: 0.9292 - val_loss: 0.3717 - val_accuracy: 0.9208
+Epoch 9/10
+573/573 [==============================] - 1489s 3s/step - loss: 0.2120 - accuracy: 0.9382 - val_loss: 0.3739 - val_accuracy: 0.9193
+Epoch 10/10
+573/573 [==============================] - 1490s 3s/step - loss: 0.1957 - accuracy: 0.9410 - val_loss: 0.3925 - val_accuracy: 0.9264
+Model: "sequential_3"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg16 (Functional)          (None, 7, 7, 512)         14714688  
+                                                                 
+ flatten_3 (Flatten)         (None, 25088)             0         
+                                                                 
+ dense_6 (Dense)             (None, 256)               6422784   
+                                                                 
+ dropout_3 (Dropout)         (None, 256)               0         
+                                                                 
+ dense_7 (Dense)             (None, 10)                2570      
+                                                                 
+=================================================================
+Total params: 21140042 (80.64 MB)
+Trainable params: 6425354 (24.51 MB)
+Non-trainable params: 14714688 (56.13 MB)
+_________________________________________________________________
